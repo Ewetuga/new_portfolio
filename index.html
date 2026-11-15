@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Tobiloba Ewetuga — Full-Stack Developer, SaaS Builder & Coding Instructor. Building premium digital experiences.">
+  <title>Tobiloba Ewetuga · Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="loader-orb"></div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Tobi.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="three-canvas"></canvas>
+    <div class="container">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="dot"></span>
+          Available for Opportunities
+        </div>
+        <h1 class="hero-title">
+          I Build Digital<br>
+          <span class="gradient-word">Experiences</span> That<br>
+          Move Businesses Forward.
+        </h1>
+        <p class="hero-desc">
+          I'm Tobiloba Ewetuga — a Certified Full-Stack Developer, SaaS builder, and coding instructor passionate about crafting innovative digital solutions that solve real-world problems.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Let's Work Together
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+             <div class="about-image-wrap">
+          <div class="laptop-illustration" aria-hidden="true">
+            <div class="laptop-screen">
+              <div class="screen-glow"></div>
+              <div class="code-line" style="width:60%"></div>
+              <div class="code-line" style="width:85%; animation-delay:0.2s"></div>
+              <div class="code-line" style="width:45%; animation-delay:0.4s"></div>
+              <div class="code-line" style="width:70%; animation-delay:0.6s"></div>
+              <div class="code-line" style="width:35%; animation-delay:0.8s"></div>
+              <div class="code-line" style="width:55%; animation-delay:1s"></div>
+            </div>
+            <div class="laptop-base">
+              <div class="laptop-trackpad"></div>
+            </div>
+          </div>
+        </div>
+         
+      
+        <div class="about-content">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle" style="margin-bottom:1.5rem;">
+            I turn ideas into practical digital products. From SaaS platforms to responsive web applications, I focus on building solutions that create real value.
+          </p>
+          <p style="color:#a0a8b8; font-size:0.95rem; margin-bottom:1rem;">
+            As a developer and educator, I've built examination prep platforms, e-commerce frontends, and hotel booking systems. I also teach programming at NIIT and mentor aspiring developers at Tresbontech Academy.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item"><i class="fas fa-rocket"></i> Real-World Solutions</div>
+            <div class="highlight-item"><i class="fas fa-cloud"></i> SaaS Platforms</div>
+            <div class="highlight-item"><i class="fas fa-mobile-alt"></i> Responsive Apps</div>
+            <div class="highlight-item"><i class="fas fa-chalkboard-teacher"></i> Teaching & Mentoring</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">My Expertise</h2>
+      <p class="section-subtitle">Technologies I work with to build modern, scalable digital products.</p>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React.js</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-mobile-alt"></i> Mobile</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">React Native</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">A selection of products and platforms I've designed and built.</p>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Applications</button>
+        <button class="filter-btn" data-filter="saas">SaaS</button>
+        <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-subtitle">My professional journey as a developer and educator.</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Full-Stack Developer</h3>
+            <span class="timeline-company">Independent Projects</span>
+            <p>Building responsive websites, SaaS platforms, and digital solutions for clients and personal ventures.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Coding Instructor</h3>
+            <span class="timeline-company">NIIT</span>
+            <p>Teaching HTML, CSS, JavaScript, PHP, and MySQL. Guiding students through practical coding projects and real-world applications.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Coding Tutor</h3>
+            <span class="timeline-company">Tresbontech Academy</span>
+            <p>Mentoring beginners in programming fundamentals and helping them build their first functional projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <p class="section-subtitle">How I can help bring your ideas to life.</p>
+      <div class="services-grid">
+        <div class="service-card"><i class="fas fa-globe"></i><h3>Website Development</h3><p>Modern, responsive websites built with clean code and great design.</p></div>
+        <div class="service-card"><i class="fas fa-layer-group"></i><h3>Full-Stack Web Apps</h3><p>Complete web applications with frontend, backend, and database integration.</p></div>
+        <div class="service-card"><i class="fas fa-cloud-upload-alt"></i><h3>SaaS Product Development</h3><p>Scalable SaaS platforms designed for real business needs.</p></div>
+        <div class="service-card"><i class="fas fa-shopping-cart"></i><h3>E-commerce Development</h3><p>Online stores with product browsing, cart, and checkout functionality.</p></div>
+        <div class="service-card"><i class="fas fa-sync-alt"></i><h3>Website Redesign & Optimization</h3><p>Modernizing existing sites for better performance and user experience.</p></div>
+        <div class="service-card"><i class="fas fa-graduation-cap"></i><h3>Programming Training & Mentorship</h3><p>Personalized guidance for beginners and aspiring developers.</p></div>
+      </div>
+    </div>
+  </section>
+
+   <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Have an Idea? Let's Build Something Great.</h2>
+      <p class="section-subtitle">Reach out through any channel below — I'm ready to bring your vision to life.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:tobilobamary9@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> tobilobamary9@gmail.com</a>
+          <a href="https://wa.me/2348096093121" class="contact-item" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="https://linkedin.com/in/ewetuga-tobiloba-75609b211" class="contact-item" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/Ewetuga" class="contact-item" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <div class="contact-3d-wrap">
+          <canvas id="contact-canvas"></canvas>
+          <div class="contact-3d-label">
+            <i class="fas fa-hand-pointer"></i> Move your cursor to interact
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Tobiloba Ewetuga. Built with vanilla HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
